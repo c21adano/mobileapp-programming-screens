@@ -16,7 +16,7 @@ Code in main activity to allow user to transition to SecondActivity, along with 
     }
 ```
 Lastly a new textview was created in SecondActivity to display the extra data that was received from MainActivity
-Added code in second activity
+Added code in second activity that show the extra data
 ```
  Intent intent = getIntent();
         String username = intent.getStringExtra("username");
